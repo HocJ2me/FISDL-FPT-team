@@ -1,4 +1,0 @@
-flask
-face_recognition
-dlib
-opencv-python
