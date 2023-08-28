@@ -26,7 +26,10 @@ def upload_image():
 
         print("Image saved")
 
-        return "image saved"
+        if is_valid_face():
+            return "Open"
+        else:
+            return "close"
 
     if request.method == "GET": #if we make a get request (for example with a browser) show the image.
 # The browser will cache this image so when you want to actually refresh it, press ctrl-f5
