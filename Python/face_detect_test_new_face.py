@@ -23,8 +23,7 @@ def training_old_face(): #id = id phong
     
     
 def is_valid_face(): #id = id phong, # file = file cua esp
-##compare_image_file = './static/tuyen.jpg'
-    compare_image_file = './static/uyen.jpg'
+    compare_image_file = './static/tuyen.jpg'
     #----- lets test an image
     test = face_recognition.load_image_file(compare_image_file)
     test = cv2.cvtColor(test, cv2.COLOR_BGR2RGB)
